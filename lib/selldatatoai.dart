@@ -1,4 +1,4 @@
-/// Dart client for the Data Asset Score API at https://www.selldatatoai.com/api/ .
+/// Dart client for the AI Data Value Score API at https://www.selldatatoai.com/api/ .
 ///
 /// Scores company domains from 0 to 100 for the data AI buyers want.
 library;
@@ -7,7 +7,7 @@ import 'dart:async';
 import 'dart:convert';
 import 'dart:io';
 
-const String version = '1.0.0';
+const String version = '1.0.1';
 const String defaultBaseUrl = 'https://www.selldatatoai.com/api/v1';
 const int batchMax = 100;
 

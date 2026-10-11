@@ -1,6 +1,6 @@
 # selldatatoai
 
-Dart package for scoring companies with the [Data Asset Score REST API](https://www.selldatatoai.com/api/). One call turns a company website into a 0 to 100 score for the data AI buyers want, with a grade, a status, the systems of record the company runs and its web history.
+Dart package for scoring companies with the [AI Data Value Score REST API](https://www.selldatatoai.com/api/). One call turns a company website into a 0 to 100 score for the data AI buyers want, with a grade, a status, the systems of record the company runs and its web history.
 
 ```yaml
 dependencies:
@@ -13,7 +13,7 @@ import 'package:selldatatoai/selldatatoai.dart';
 
 Built on `dart:io` with no third-party dependencies. Runs on the Dart VM: servers, command-line tools and desktop. Dart 3.0 or newer.
 
-[SellDataToAI](https://www.selldatatoai.com/) runs the API on top of an index of 102 million domains, 99.99% of the active internet, with history for each domain.
+[SellDataToAI](https://www.selldatatoai.com/) runs the API on top of an index of 120 million domains, 99.99% of the active internet, with history for each domain.
 
 ## A note before you start: keep the key on a server
 
@@ -256,7 +256,7 @@ The [monthly lookup plans](https://www.selldatatoai.com/pricing/) reset on the f
 
 ### What is the selldatatoai Dart package?
 
-The selldatatoai Dart package is a client for the Data Asset Score API at selldatatoai.com. It scores company websites from 0 to 100 for the data AI buyers want and returns the grade, status, data systems, likely data assets and web history.
+The selldatatoai Dart package is a client for the AI Data Value Score API at selldatatoai.com. It scores company websites from 0 to 100 for the data AI buyers want and returns the grade, status, data systems, likely data assets and web history.
 
 ### Does it work in Flutter?
 
